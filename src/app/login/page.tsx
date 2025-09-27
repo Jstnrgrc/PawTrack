@@ -37,9 +37,9 @@ export default function LoginPage() {
 
       // ✅ Redirect based on role from backend
       if (data.user.role === 'admin') {
-        router.push('/admin/admin-dashboard');
+        router.push('/admin');
       } else {
-        router.push('/client/dashboard');
+        router.push('/client');
       }
     } catch (err) {
       setError('Something went wrong');

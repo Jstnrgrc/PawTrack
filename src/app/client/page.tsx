@@ -20,7 +20,7 @@ export default function ClientDashboard() {
 
       if (userData.role === "admin") {
         // 🚫 redirect admins away from client dashboard
-        router.push("/admin/admin-dashboard");
+        router.push("/admin/");
       } else if (userData.role === "client") {
         setUser(userData); // ✅ client stays here
       } else {
