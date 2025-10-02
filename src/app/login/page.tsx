@@ -49,7 +49,9 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-orange-50 to-white px-4">
+          <div className="relative min-h-screen flex items-center justify-center px-4 bg-cover bg-center"
+          style={{backgroundImage: "url('/bg.png')"}}>
+
       <div className="w-full max-w-md bg-white rounded-2xl shadow-2xl p-10 border border-blue-100">
         <div className="text-center mb-8">
           <div className="text-5xl font-extrabold text-blue-600">🐾 PawTrack</div>
